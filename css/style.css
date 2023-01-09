@@ -188,6 +188,7 @@ body {
   flex-direction: row;
   border: 2px solid black;
   align-items: center;
+  width:300px;
 }
 
 .products-title {
@@ -208,6 +209,8 @@ body {
 .list-item-text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .products-container-list-item .fa-solid,
 .products-container-list-item .fa-brands,
