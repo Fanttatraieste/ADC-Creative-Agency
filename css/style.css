@@ -319,7 +319,7 @@ body {
   word-spacing: 0px;
   font-weight: 400;
   margin-bottom: 90px;
-  align-self: center;
+  margin-left: 15px;
 }
 .projects-list {
   display: flex;
@@ -350,17 +350,24 @@ body {
   justify-content: center;
 }
 .projects-pictures {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
+  padding-left: 0px;
 }
 .projects-pictures-list {
   display: flex;
   list-style-type: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  height: 50%;
+  width: 100%;
 }
 .thumb {
   display: block;
   height: 300px;
-  width: 300px;
+  width: 25%;
 }
 
 .thumb > img {
@@ -386,4 +393,75 @@ body {
   margin-bottom: 50px;
   align-self: center;
   border: 0px;
+}
+/* Review section */
+.review-section {
+  background-color: #f7f6f4;
+  display: flex;
+  align-items: center;
+}
+.align-review {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 180px;
+  padding-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1130px;
+}
+
+.review-title {
+  color: #262626;
+  font-weight: 400;
+  font-size: 48px;
+  letter-spacing: -2px;
+  line-height: 1.04;
+  margin-bottom: 70px;
+}
+.review-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 560px;
+  background-color: white;
+  box-shadow: 1px 3px 28px -3px rgba(0, 0, 0, 0.62);
+  -webkit-box-shadow: 1px 3px 28px -3px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: 1px 3px 28px -3px rgba(0, 0, 0, 0.62);
+}
+.review-container:first-child {
+  margin-right: 30px;
+}
+.review-containers {
+  display: flex;
+}
+
+.review-text {
+  color: #808080;
+  font-size: 18px;
+  word-spacing: 0px;
+  line-height: 1.94;
+  margin-bottom: 25px;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+.review-name {
+  color: #262626;
+  font-size: 21px;
+  line-height: 1.52;
+  word-spacing: 0px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+}
+
+.review-company {
+  font-size: 15px;
+  line-height: 1.46;
+  color: #4c4c4c;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+.svg1 {
+  margin-left: auto;
+  margin-right: auto;
 }
