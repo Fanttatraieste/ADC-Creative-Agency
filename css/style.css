@@ -515,7 +515,6 @@ body {
     ),
     url(../images/business-bg2.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
   background-size: cover;
   opacity: 100%;
   display: flex;
